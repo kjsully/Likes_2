@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 1000px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 50px;
+}
+
+.nav {
+    background-color: black;
+    color: whitesmoke;
+    padding: 14px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.title h1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col1 {
+    height: 300px;
+    width: 150px;
+    border: 5px solid black;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col1 img {
+    height: 120px;
+}
+
+a {
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 18px;
+    color: blue;
+}
+
+.col1 h3 {
+    font-family: cursive;
+    font-size: 20pt;
+}
+
+.col2 {
+    height: 600px;
+    width: 150px;
+    flex: 5;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post {
+    height: 180px;
+    width: auto;
+    border: 5px solid black;
+    
+}
+
+.post h2 {
+    font-family: cursive;
+    font-size: 20pt;
+
+}
+
+#likes1 {
+    margin-left: 240px;
+    margin-right: 25px;
+}
+
+#likes2 {
+    margin-left: 203px;
+    margin-right: 25px;
+}
+
+#likes3 {
+    margin-left: 250px;
+    margin-right: 25px;
+}
+
+.post button {
+    font-size: 18px;
+    padding: 5px;
+    width: 60px;
+    background-color: orange;
+    border: 3px solid black;
+    box-shadow: 3px 3px 1px black;
+    font-weight: 550;
+
+}
+
+.postcontent {
+    font-family: cursive;
+    margin: 25px;
+    font-size: 13pt;
+    font-weight: 550;
+}
+
+
+.flextop {
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+    margin: 25px;
+    
+}
+
+.likes1, .likes2, .likes3 {
+    font-weight: bold;
+}
